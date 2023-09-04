@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="shortcut icon"
+        href="https://lh3.googleusercontent.com/6KG0pY9IExiKwY15oTCDo-SYcJ9YjU5aqYp77uRtd7iXB3nHHoHldiNtRSWzQpJapw">
+    <title>Dark Web</title>
+</head>
+
+<body>
+    <!--NavBar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Dark City</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="How_to_Access.html">How to Access</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="stories.html">Stories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact_us.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mx-2">
+                <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+                <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#signupModal">Signup</button>
+            </div>
+        </div>
+    </nav>
+    <!--Login Modal-->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="loginModalLabel">Login to DarkCity</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-danger">Login</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Signup Modal-->
+    <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="signupModalLabel">Get DarkCity Account</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputName" class="form-label">Enter Your Name</label>
+                            <input type="text" class="form-control" id="exampleInputName">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="cexampleInputPassword1" class="form-label"> Confirm Password</label>
+                            <input type="password" class="form-control" id="cexampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-danger">SignUp</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--DATA-->
+    <div class="content mx-5 my-5">
+            <h3>HOW TO ACCESS DARK WEB SAFELY</h3>
+        <div class="para" style="font-size:20px;">
+            To access the vast majority of the dark web, you’ll need Tor. Tor is a network of volunteer relays through
+            which the user’s internet connection is routed. The connection is encrypted and all the traffic bounces
+            between relays located around the world, making the user anonymous.
+            <br>
+            <br>
+            <center><img width="500" height="350"
+                    src="https://cdn.comparitech.com/wp-content/uploads/2019/01/tor-diagram.jpg">
+            </center>
+            <br>
+            <br>
+            <h3>Get Tor Browser</h3>
+            The easiest way to access Tor is through the Tor Browser. You can download and install it for free. You
+            might want to hide your Tor Browser download using a VPN and your existing browser’s private/incognito
+            mode.Based on Firefox, Tor Browser lets you surf both the clear web and dark web. All your traffic is
+            automatically routed through the Tor Network. Make sure to download the Tor Browser only from the official
+            website, as not to risk downloading malware, spyware, or some other virus to your device.
+            Officially, the Tor Browser is only available on Windows, Mac, Android and Linux. Many experts advise
+            against using third-party mobile browsers that utilize the Tor Network. Sorry, iOS users.
+            <br>
+            <br>
+            <center><img width="700" height="350"
+                    src="https://cdn.comparitech.com/wp-content/uploads/2020/02/tor-browser-february-2020-1024x555.jpg">
+            </center>
+            <br>
+            <br>
+            <h3>Added security: Use a VPN</h3>
+            Internet providers and websites can detect when Tor is being used because Tor node IPs are public. Although
+            websites can’t identify you and ISPs can’t decrypt your internet traffic, they can see that Tor is being
+            used. This can raise suspicions and draw unwanted attention.If you want to use Tor privately, you can use
+            either a VPN or Tor Bridges (Tor nodes that are not publicly indexed). Tor users in the USA in particular
+            may want to use a VPN, which will be faster and more reliable.
+            When using a VPN for the dark web, your ISP will not be able to see that you are connected to a Tor node,
+            only an encrypted tunnel to a VPN server.
+            <br>
+            <br>
+            <center><img width="700" height="350"
+                    src="https://cdn.comparitech.com/wp-content/uploads/2019/05/nordvpn-windows-1024x544.jpg">
+            </center>
+            <br>
+            <br>
+            <h3>Navigating the dark net</h3>
+            Now that you have Tor, you can access the dark web. Dark net websites are called “Tor hidden services”, and
+            they can be distinguished from normal websites by their URLs.
+            Instead of “.com” or “.org”, dark web addresses can be distinguished by the top-level domain, “.onion“.
+            Obviously, finding these .onion websites is the first challenge, as they won’t show up in Google search
+            results. You can’t just Google “Silk Road” and hope to land on the dark website.
+            A handful of dark net search engines that do index .onion sites include NotEvil, Ahmia, Candle, and Torch.
+            There are also directories like dark.fail.
+            <br>
+            <br>
+            <center><img width="700" height="300"
+                    src="https://cdn.comparitech.com/wp-content/uploads/2016/05/tor-browser-wikileaks-url-bar.png">
+            </center>
+            <br>
+            <br>
+            <h3>Anonymity is in your hands</h3>
+            You can now safely browse dark websites and hidden wikis, but if you plan to do anything more than that,
+            you’ll need to take several precautions. If you plan to make a purchase on a dark net marketplace like Silk
+            Road to get those drugs your dying mother so desperately needs to survive, for instance, you’ll need to
+            create a fake identity. That means setting up encrypted email with a new email address, encrypting messages
+            with PGP, using a pseudonym, setting up an anonymous bitcoin wallet, disabling Javascript in Tor Browser,
+            researching vendors, and more.
+            Again, we can’t emphasize enough that security and anonymity are paramount to those on dark websites. Your
+            ISP and the government might not be able to view your activity when on the Tor Network, but they do know you
+            are on the Tor Network, and that alone is enough to raise eyebrows. In fact, a recent judgment by the US
+            Supreme Court denoted that simply using Tor was sufficient probable cause for law enforcement to search and
+            seize any computer around the world.
+            <br>
+            <br>
+            <center>
+                <iframe width="700" height="345" src="https://www.youtube.com/embed/EgXeXmNecto?controls=0">
+                </iframe>
+            </center>
+            <br>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                    <img src="https://lh3.googleusercontent.com/6KG0pY9IExiKwY15oTCDo-SYcJ9YjU5aqYp77uRtd7iXB3nHHoHldiNtRSWzQpJapw"
+                        width="30" height="30" alt="dark-icon">
+                </a>
+                <span class="mb-3 mb-md-0 text-muted">© 2023 Dark Web, @anonymous03</span>
+            </div>
+
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/darkwebshow/?hl=en"><img
+                            src="https://cdn3.iconfinder.com/data/icons/popular-services-brands/512/instagram-512.png"
+                            alt="insta-icon" width="30" height="30">
+                    </a></li>
+                <li class="ms-3"><a class="text-muted" href="https://twitter.com/links_darkweb?lang=en"><img
+                            src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/twitter_circle-512.png"
+                            alt="twitter-icon" width="30" height="30">
+                    </a></li>
+                <li class="ms-3"><a class="text-muted" href="https://www.facebook.com/darkwebshow/"><img
+                            src="data:image/png;base64,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"
+                            alt="" width="30" height="30">
+                    </a></li>
+            </ul>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

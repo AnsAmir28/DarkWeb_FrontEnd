@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="shortcut icon"
+    href="https://lh3.googleusercontent.com/6KG0pY9IExiKwY15oTCDo-SYcJ9YjU5aqYp77uRtd7iXB3nHHoHldiNtRSWzQpJapw">
+  <title>Dark Web</title>
+</head>
+
+<body>
+  <!--NavBar-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Dark City</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="How_to_Access.html">How to Access</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="stories.html">Stories</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact_us.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+      <div class="mx-2">
+        <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+        <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#signupModal">Signup</button>
+      </div>
+    </div>
+  </nav>
+  <!--Login Modal-->
+  <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="loginModalLabel">Login to DarkCity</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-danger">Login</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Signup Modal-->
+  <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="signupModalLabel">Get DarkCity Account</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputName" class="form-label">Enter Your Name</label>
+              <input type="text" class="form-control" id="exampleInputName">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3">
+              <label for="cexampleInputPassword1" class="form-label"> Confirm Password</label>
+              <input type="password" class="form-control" id="cexampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-danger">SignUp</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Stories-->
+<!--1st story-->
+  <center>
+    <div class="container mx-5 my-5" style="padding-top: 80px;">
+      <div class="row featurette d-flex justify-content-center align-items-center">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading fw-normal lh-1">
+            <h2>DEATH ROOM</h2><span class="text-muted"></span>
+            <p class="lead"><b>Death room is the website where people are tortured and members of this site watching
+                this and paid amount by bitcoin to see the person who are totured.
+                There have many instances on the deep web where users have repeatedly found terrifying live streams.
+                Some guy stumbled on a live stream where a girl was sitting in a chair and commanded people from chat
+                window
+                to tell her what kind of abuse she should do to herself. After many cuts, bruises, eye gouging, the girl
+                eventually killed herself on the live stream.This is not the only case where people have brought harm to
+                themselves on a live stream in the deep web.
+                These live streams are popular known as “Red Rooms” where even ISIS has started using this platform
+                to conduct beheadings and murder.</b></p>
+        </div>
+        <div class="col-md-5 order-md-2 ">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+            src="https://img.mensxp.com/media/content/2017/Jun/terrifying-dark-web-stories-that-will-give-you-sleepless-nights2-1496313755.jpg?w=652&h=466"
+            alt="">
+  </center>
+  </div>
+  </div>
+  </div>
+  <br />
+  <br />
+  <!--2nd Story-->
+  <center>
+    <div class="container mx-5 my-5">
+      <div class="row featurette d-flex justify-content-center align-items-center">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading fw-normal lh-1">
+            <h2>REDDIT USER FAKE FAKINGTON</h2><span class="text-muted"> </span>
+          </h2>
+          <p class="lead"> <b>This was back before Google. Web pages were, for the most part, still very basic HTML with
+              Javascript.
+              Hardly anyone used CSS.
+              I was browsing random blogs, Geocities sites, and the like, just going from link to link.
+              Eventually I came upon an odd page - it appeared to be random thoughts from different people. The messages
+              seemed to be cryptic in nature,
+              like several people trying to pass secret notes. I started through the source, and hidden
+              in the comments of a javascript were various IP addresses.
+              I gathered all of the IPs in a text file and began enumerating. Some were routers with banner messages
+              I could telnet to - almost all at universities ('Warning! This is a secure system at University of Bla
+              Bla....')
+              .The default Cisco credentials from back in the day worked on most of them, but I didn't poke around.
+              A few of the IP's were web servers with little to nothing on them, mostly Apache on Linux or some BSD,
+              at least one IIS server I can recall."
+              "I finally came upon a web server with a huge directory of HTML files and TIFF images, with a few smaller
+              subdirectories containing the same. nslookup returned no reverse records for the IP. A VisualRoute traced
+              it as far as Colorado. The HTML files appeared to be records a psychologist or similar mental health
+              professional would keep. The images were of faxes, apparently of both military and medical nature.
+              As I browsed from a subdirectory back to the parent, at the top was a new HTML file named something like
+              'HELLO-THERE.html.' The time stamp was from right that minute. I opened it, and in plain text was the
+              message 'we see you.' No quotes, all lowercase. About 15 seconds later the server dropped.</br>
+            </b></p>
+        </div>
+        <div class="col-md-5 order-md-1 ">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+            src="https://img.mensxp.com/media/content/2017/Jun/terrifying-dark-web-stories-that-will-give-you-sleepless-nights1-1496313622.jpg?w=652&h=386"
+            alt="">
+        </div>
+      </div>
+    </div>
+    <br />
+    <br />
+  </center>
+  <!--3rd story-->
+  <center>
+    <div class="container mx-5 my-5">
+      <div class="row featurette d-flex justify-content-center align-items-center">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading fw-normal lh-1"><b>BETTER START RUNNING<span class="text-muted"> </span></h2>
+          <p class="lead">So our narrator was browsing the TOR (that’s what you browse the deep web on.) Suddenly he
+            went all beat-mode on the clicks!
+            He landed on a wiki page that was part of the Deep web, and he hit the random button couple times. (Well,
+            maybe couple times, and then some!).
+            The next page that was supposed to open up took a lot of time to load. And when it finally did, in bold
+            letters it was written :- YOU BETTER START RUNNING!
+            Was it just a scare-page? Or did it mean something? Well that’s up to you to ponder over.</b></p>
+        </div>
+        <div class="col-md-5 order-md-2 ">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+            height="500"
+            src="https://images.idgesg.net/images/article/2019/06/dark_web_dark_net_warning_sign_alert_caution_danger_by_thomas-bethge_gettyimages-1151411167_black_and_yellow_warning_stripes_background_by_croc80_gettyimages-483040586_2400x1600-100800632-large.jpg?auto=webp&quality=85,70"
+            alt="image">
+        </div>
+      </div>
+    </div>
+  </center>
+  </br>
+  </br>
+  </br>
+  </br>
+  </br>
+
+  <!--4th story-->
+  <center>
+    <div class="container mx-5 my-5">
+      <div class="row featurette d-flex justify-content-center align-items-center">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading fw-normal lh-1">
+            <h2>HOW TO COOCK LIVE WOMEN MEAT</h2><span class="text-muted"> </span>
+          </h2>
+          <p class="lead"><b>What if I told you there actually existed a website which taught people how to cook “Human”
+              meat!
+              And it wasn’t just some lines of normal meat cooking, it actually had a pretty detailed article on the
+              types
+              of meat you should be choosing, the angle of the cuts and other details as such.
+              And what worries me more is, the website wasn’t talking about cooking a “dead” woman! (As if cooking a
+              dead
+              woman was normal!), instead it was explaining how you should be delicate with the cuts and the specified
+              angles so that the woman lived as long as possible while her flesh was being COOKED!
+              If you’ve ever seen one of those “saw” movies, I’m pretty sure now we both know how the directors get
+              these
+              ideas. Was it just a random article? Or did the writer actually cooked live women? Think about it!</b></p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+            height="500" src="https://www.deepwebsiteslinks.com/wp-content/uploads/2017/01/10-300x196.jpg" alt="image">
+        </div>
+      </div>
+    </div>
+  </center>
+  </br>
+  </br>
+  </br>
+  </br>
+<!--Iframe-->
+  <center>
+    <iframe width="700" height="345" src="https://www.youtube.com/embed/2mgUFKU6tnY?controls=0">
+    </iframe>
+</center>
+<br>
+  <!--Footer-->
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+          <img
+            src="https://lh3.googleusercontent.com/6KG0pY9IExiKwY15oTCDo-SYcJ9YjU5aqYp77uRtd7iXB3nHHoHldiNtRSWzQpJapw"
+            width="30" height="30" alt="dark-icon">
+        </a>
+        <span class="mb-3 mb-md-0 text-muted">© 2023 Dark Web, @anonymous03</span>
+      </div>
+
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/darkwebshow/?hl=en"><img
+              src="https://cdn3.iconfinder.com/data/icons/popular-services-brands/512/instagram-512.png"
+              alt="insta-icon" width="30" height="30">
+          </a></li>
+        <li class="ms-3"><a class="text-muted" href="https://twitter.com/links_darkweb?lang=en"><img
+              src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/twitter_circle-512.png"
+              alt="twitter-icon" width="30" height="30">
+          </a></li>
+        <li class="ms-3"><a class="text-muted" href="https://www.facebook.com/darkwebshow/"><img
+              src="data:image/png;base64,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"
+              alt="" width="30" height="30">
+          </a></li>
+      </ul>
+    </footer>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
